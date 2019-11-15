@@ -1,0 +1,66 @@
+/* Polices utilisés dans le header */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+/* Polices utilisés dans fable01 */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Raleway|Raleway+Dots&display=swap');
+/* Polices utilisés dans fable04 */
+@import url('https://fonts.googleapis.com/css?family=Lobster|Oswald&display=swap');
+/* Polices utilisés dans footer sont les mêmes que dans header */
+
+header {
+  font-family: 'Amatic SC', cursive;
+}
+
+header h1 {
+  font-size: 4.25em;
+  text-align: center;
+}
+
+header p {
+  font-size: 2.25em;
+  text-align: center;
+}
+
+/* Styles partagés par tous les éléments ayant la même class */
+
+.fable-moral {
+  font-size: 3.052em;
+  margin: 2.75rem 0 1rem;
+}
+
+/* Styles utilisés dans fable01 */
+
+#fable01 {
+  font-family: 'Raleway', sans-serif;
+}
+
+#fable01 h2 {
+  font-size: 4em;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+#fable01 p {
+  text-align: center;
+}
+
+#fable01 .fable-moral {
+    font-family: 'Raleway Dots', cursive;
+    text-align: center;
+}
+
+/* Styles utilisés dans fable04 */
+
+#fable04 {
+  font-family: 'Oswald', sans-serif;
+}
+
+#fable04 h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 8em;
+}
+
+#fable04 .fable-moral {
+    font-family: 'Lobster', cursive;
+    text-align: center;

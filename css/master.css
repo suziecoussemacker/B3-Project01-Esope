@@ -1,0 +1,92 @@
+body {
+  margin : 0;
+}
+
+header {
+  min-height: 100vh;
+  padding: 1em;
+  background-color: rgba(95,121,149,1);
+  color: white;
+/* display en flexbox pour centrer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+    min-height: 100vh;
+}
+
+/* Styles utilisés dans fable01 */
+
+#fable01 {
+  background: #6b7b00 url('images/montagne.jpg') top center no-repeat;
+  min-height: 60vh;
+  background-size: cover;
+  background-attachment: local;
+  overflow: hidden;
+  padding: 42px;
+}
+
+#fable01 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#fable01 .text-content {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 42px;
+  margin: 6px;
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#fable01 figure {
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+}
+
+#fable01 figure img {
+  width : 100%;
+}
+
+/* Styles utilisés dans fable04 */
+
+#fable04 {
+  overflow: hidden;
+  background: url('images/poisson.jpg') 50% 50% no-repeat;
+  background-size: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+#fable04 p {
+  max-width: 640px;
+  text-align: left;
+  letter-spacing: 0.25em;
+  line-height: 2;
+}
+
+#fable04 .fable-moral {
+  max-width: 50%;
+  text-align: center;
+  letter-spacing: 0em;
+  line-height: 1;
+}
+
+.emphasised {
+  font-size: 1.5em;
+  padding : 2px;
+  background: black;
+  border-bottom : 1px solid #fff;
+}
